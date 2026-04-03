@@ -44,12 +44,7 @@ export default function PresentacionView() {
                         ref={textRef as React.RefObject<HTMLParagraphElement>}
                         className="text-zinc-100 text-base md:text-lg text-justify leading-relaxed [animation-delay:300ms]"
                     >
-                        Desarrollador web fullstack con experiencia en e-commerce. Desde
-                        2022 trabajo en la agencia Wuala desarrollando funcionalidades,
-                        integraciones y automatizaciones para tiendas en PrestaShop, Shopify
-                        y Tienda Nube. Actualmente estudio Ingeniería en Sistemas en la UTN
-                        y continúo formándome en tecnologías modernas como React, TypeScript
-                        y Node.js.
+                        Desarrollador web fullstack con más de 3 años de experiencia en el ecosistema e-commerce. Actualmente integro el equipo de la agencia Wuala, donde desarrollo soluciones personalizadas, automatizaciones e integraciones para tiendas en PrestaShop, Shopify y Tienda Nube. Complemento mi experiencia profesional con la carrera de Ingeniería en Sistemas de Información en la UTN y formación continua en React, TypeScript y Node.js.
                     </p>
 
                     <div

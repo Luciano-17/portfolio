@@ -10,7 +10,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-// Hook interno: revela el elemento cuando entra al viewport
 function useReveal(threshold = 0.15) {
     const ref = useRef<HTMLDivElement>(null)
     const [visible, setVisible] = useState(false)
@@ -34,8 +33,6 @@ function useReveal(threshold = 0.15) {
     return { ref, visible }
 }
 
-// ── Datos ─────────────────────────────────────────────────────────────────────
-
 const INFO_ROWS = [
     { icon: faLocationDot,     label: "Ubicación",     value: "Córdoba, Argentina",       accent: false },
     { icon: faGraduationCap,   label: "Educación",     value: "UTN · Ing. en Sistemas",   accent: false },
@@ -47,21 +44,19 @@ const CARDS = [
     {
         icon: faBook,
         title: "Formación académica",
-        text: "Ingeniería en Sistemas en la UTN, donde continúo fortaleciendo mi base en desarrollo de software. Complemento con cursos en React, TypeScript, Node.js y stack MERN. Actualmente ampliando conocimientos en React Native e inglés profesional.",
+        text: "Curso Ingeniería en Sistemas de Información en la UTN, fortaleciendo mi base en desarrollo de software. Complemento la carrera con cursos especializados en React, TypeScript, Node.js, NestJS y GraphQL, entre otros. También amplio mis conocimientos en React Native y en inglés profesional.",
     },
     {
         icon: faScrewdriverWrench,
         title: "Stack técnico",
-        text: "Frontend y backend completo: HTML, CSS, SASS, JavaScript, React y TypeScript en el cliente; Node.js, Express, PHP, MySQL y MongoDB en el servidor. También trabajo con Next.js, NestJS, APIs REST y Git.",
+        text: "Trabajo con un stack completo de frontend y backend. En el cliente utilizo Tailwind, Bootstrap, SASS, JavaScript, React y TypeScript. En el servidor trabajo con Node.js, Express, PHP, MySQL, PostgreSQL y MongoDB. También tengo experiencia con Next.js, NestJS, APIs REST y Git.",
     },
     {
         icon: faBriefcase,
         title: "Experiencia profesional",
-        text: "Desde 2022 en la agencia de e-commerce Wuala: desarrollo de módulos para PrestaShop, integraciones con APIs, automatización de procesos y gestión técnica de tiendas en PrestaShop, Shopify y Tienda Nube.",
+        text: "Desde 2022 formo parte de la agencia de e-commerce Wuala, donde desarrollo módulos y funcionalidades personalizadas para PrestaShop, Shopify y Tienda Nube. Mi trabajo incluye integraciones con APIs, automatización de procesos y gestión técnica de tiendas, colaborando en la comunicación con clientes para implementar nuevas soluciones.",
     },
 ]
-
-// ── Componente ────────────────────────────────────────────────────────────────
 
 export default function SobreMi() {
     const titleReveal = useReveal()
@@ -141,7 +136,7 @@ export default function SobreMi() {
                             className={["opacity-0", cardReveals[i].visible ? "animate-slide-right" : ""].join(" ")}
                             style={{ animationDelay: cardReveals[i].visible ? `${i * 120}ms` : "0ms" }}
                         >
-                            <div className="bg-zinc-200/50 shadow-md border-l-4 border-l-cyan-950 border border-zinc-300 rounded-2xl p-3 md:p-5">
+                            <div className="bg-zinc-200 shadow-md border-l-4 border-l-cyan-950 border border-zinc-300 rounded-2xl p-3 md:px-4 md:py-3">
                                 <div className="flex items-center gap-2 mb-3">
                                     <div className="w-8 md:w-10 h-8 md:h-10 rounded-lg bg-cyan-950 flex items-center justify-center flex-shrink-0">
                                         <FontAwesomeIcon icon={icon} className="text-cyan-400 text-base md:text-lg" />
@@ -150,6 +145,7 @@ export default function SobreMi() {
                                         {title}
                                     </h3>
                                 </div>
+
                                 <p className="text-zinc-900 text-sm md:text-base text-justify">
                                     {text}
                                 </p>
