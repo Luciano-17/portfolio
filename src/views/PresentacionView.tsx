@@ -81,7 +81,7 @@ export default function PresentacionView() {
                     >
                         <div className="absolute inset-0 rounded-3xl border-2 border-cyan-800 md:5/6 md:w-2/3 translate-x-3 md:translate-x-28 translate-y-3 md:translate-y-2" />
                         <img
-                            src="../public/foto-perfil.jpg"
+                            src="/foto-perfil.jpg"
                             alt="Foto Luciano Villarreal"
                             className="relative rounded-3xl shadow-2xl w-full md:w-2/3 object-cover object-top aspect-[3/4]"
                         />
