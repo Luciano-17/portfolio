@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Tienda de Guitarras",
+    "description": "Carrito de compras de guitarras eléctricas, donde se podrán agregar, sumar, quitar o vaciar",
+    "image": "./public/proyectos/tienda-guitarra.png",
+    "tags": ["tailwind", "typescript", "react"],
+    "demo": "https://carrito-compras-villarreal.netlify.app/",
+    "repo": "https://github.com/Luciano-17/carrito-compras",
+    "accentColor": "#96BF48"
+  },
+  {
+    "title": "Planificador de Gastos",
+    "description": "Planifique gastos teniendo como base un monto disponible. Tambien cuenta con filtros.",
+    "image": "./public/proyectos/planificador-gastos.png",
+    "tags": ["tailwind", "typescript", "react"],
+    "demo": "https://plan-gastos-villarreal.netlify.app/",
+    "repo": "https://github.com/Luciano-17/planificador-gastos",
+    "accentColor": "#61DAFB"
+  },
+  {
+    "title": "Pacientes de Veterinaria",
+    "description": "Seguimiento de pacientes en una veterinaria, donde se podra ingresar la fecha de alta.",
+    "image": "./public/proyectos/pacientes-veterinaria.png",
+    "tags": ["tailwind", "typescript", "react"],
+    "demo": "https://administrador-pacientes-villarreal.netlify.app/",
+    "repo": "https://github.com/Luciano-17/administrador-pacientes",
+    "accentColor": "#8892BE"
+  },
+  {
+    "title": "Clima API",
+    "description": "Consultoria de clima, en conexión con una API utilizando AXIOS y ZOD.",
+    "image": "./public/proyectos/clima-api.png",
+    "tags": ["tailwind", "typescript", "react"],
+    "demo": "https://clima-villarreal.netlify.app/",
+    "repo": "https://github.com/Luciano-17/clima-API",
+    "accentColor": "#3178C6"
+  },
+  {
+    "title": "Barbería",
+    "description": "Aplicación de preguntas y respuestas desarrollada con React.js y una API personalizada.",
+    "image": "./public/proyectos/barberia.png",
+    "tags": ["bootstrap", "javascript", "php"],
+    "demo": "https://barberiapp.netlify.app/",
+    "repo": "https://github.com/Luciano-17/app-salon",
+    "accentColor": "#DF0067"
+  },
+  {
+    "title": "Bienes Raíces",
+    "description": "Inmobiliaria donde presenta al publico sus bienes raices disponibles.",
+    "image": "./public/proyectos/bienes-raices.png",
+    "tags": ["bootstrap", "javascript", "php"],
+    "demo": "https://bienesraicesluciano.netlify.app/",
+    "repo": "https://github.com/Luciano-17/bienes-raices",
+    "accentColor": "#F7C948"
+  },
+  {
+    "title": "Calculadora Propinas",
+    "description": "Aplicación de calculadora de propinas en un restaurant, donde tambien se podrán agregar porcentajes de comisión.",
+    "image": "./public/proyectos/calculadora-propinas.png",
+    "tags": ["tailwind", "typescript", "react"],
+    "demo": "https://calculadora-propinas-villarreal.netlify.app/",
+    "repo": "https://github.com/Luciano-17/calculadora-propinas",
+    "accentColor": "#635BFF"
+  },
+  {
+    "title": "Contador Calorías",
+    "description": "Contador de calorias en base a los alimentos que se agregan, como tambien, el gasto en ejercicios.",
+    "image": "./public/proyectos/contador-calorias.png",
+    "tags": ["tailwind", "typescript", "react"],
+    "demo": "https://contador-calorias-villarreal.netlify.app/",
+    "repo": "https://github.com/Luciano-17/contador-calorias",
+    "accentColor": "#00B4D8"
+  },
+  {
+    "title": "Cotizador Crypto",
+    "description": "Consulte las cotizaciones de las principales cryptomonedas en diferentes tipos de monedas.",
+    "image": "./public/proyectos/cotizador-crypto.png",
+    "tags": ["tailwind", "typescript", "react"],
+    "demo": "https://cotizador-cripto-villarreal.netlify.app/",
+    "repo": "https://github.com/Luciano-17/cotizador-cryptomonedas",
+    "accentColor": "#00B4D8"
+  }
+]
